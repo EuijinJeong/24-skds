@@ -1,0 +1,11 @@
+.margin-top-10 {
+  margin-top: 10px; /* 상속 불가 (Box Model의 속성) */
+}
+
+.color-red {
+  color: red;
+}
+
+.inline-block {
+  display: inline-block;
+}

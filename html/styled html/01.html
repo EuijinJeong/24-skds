@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+    <!-- html 파일의 인코딩을 설정하는 방법
+        html에 포함되어있는 모든 텍스트들의 인코딩을 UTF-8로 지정해서 다국어를 사용할 수 있도록 한다. -->
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <!-- external style을 import한다. 
+        rel: 현재문서와 임포트하려는 문서간의 관계를 명시 => "stylesheet"
+        type: 임포트 하려는 문서의 mime-type를 명시 => "text/css"
+        href: 임포트 하려는 문서의 경로(상대경로)를 명시 styled html/external_style/01_style.css
+            상대경로 => 현재 위치로부터 목적지의 위치까지의 경로.
+                현재 위치:   -->
+    <link rel="stylesheet" type="text/css" href="./external_style/01_style.css"/>
+</head>
+<body>
+    <div class="red">내용입니다.</div>
+    <p class="blue">문장입니다.</p>
+    <ul class="green">
+        <li>
+            메뉴 1
+        </li>
+        <li>
+            메뉴 2
+        </li>
+    </ul>
+</body>
+</html>

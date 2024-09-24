@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+.section {
+  margin: 30px;
+  padding: 30px;
+}
+
+.to-inline-block {
+  /* 박스를 인라인블럭 엘리먼트로 변경한다. */
+  display: inline-block;
+}
+
+.to-block {
+  /* 박스를 블럭 엘리먼트로 변경한다. */
+}

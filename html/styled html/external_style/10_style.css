@@ -1,0 +1,32 @@
+.link:link {
+  color: #333;
+  text-decoration: none;
+}
+
+.link:visited {
+  color: #333;
+}
+
+.link:hover {
+  color: #111;
+  text-decoration: underline;
+}
+
+/* 클릭이 되었다는걸 가시적으로 표시하기 위해서 active를 사용한다. */
+.link:active {
+  color: #f009;
+  background-color: #ccc;
+}
+
+.interactive:hover {
+  color: #666;
+}
+
+.interactive:active {
+  background-color: #f009;
+}
+
+.interactive:nth-child(2n) {
+  background-color: #000;
+  color: #fff;
+}
